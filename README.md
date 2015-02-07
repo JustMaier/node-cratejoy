@@ -9,6 +9,11 @@ Feel free to fork and make pull requests, or adding issues as you please.
 
 ```npm install node-cratejoy```
 
+If you don't already have `request` be sure to also do:  
+```npm install request```
+
+`request` isn't included as a dependency since it is a common module and I didn't want to require a different version than you already installed. If you don't think this a good idea, please open an issue and I'll add it as a dependency.
+
 ## Usage
 
 After having installed it, simply require it, set it up with your own clientId and clientSecret, and start calling methods!
